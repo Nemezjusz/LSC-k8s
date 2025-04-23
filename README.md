@@ -46,3 +46,10 @@ kubectl apply -f nginx-service.yaml
 ```bash
 kubectl apply -f content-job.yaml
 ```
+
+### 7. Start server
+
+```bash
+minikube service nginx-service --url
+```
+
